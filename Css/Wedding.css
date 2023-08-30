@@ -1,0 +1,242 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat, sans-serif;
+}
+header{
+  justify-content: space-between;
+}
+
+.navbar-brand{
+  font-size: 17px;
+  padding-left: 3%;
+
+}
+.nav-link{
+  font-size: 20px;
+  
+}
+.navbar-toggler{
+  text-align: center;
+}
+.container{
+  margin-right: 40%;
+}
+.button1{
+  margin: auto;
+}
+#navbarNavAltMarkup{
+  margin-left: 45%;
+}
+
+iframe{
+  width: 450px;
+  height: 250px;
+}
+
+
+
+
+
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  
+  
+  
+  align-items: center;
+  z-index: 100;
+  
+}
+.facebook-icon {
+  color: rgb(37, 37, 91);
+  font-size: 30px;
+  border-radius: 4px ;
+  transition: .3s;
+  
+  
+  } 
+  
+  .instagram-icon {
+  color: rgb(168, 50, 101);
+  font-size: 30px;
+  border-radius: 4px ;
+  transition: .3s;
+ 
+  }
+  
+  .twitter-icon {
+  color: #1da1f2;
+  font-size: 30px;
+  border-radius: 4px ;
+  transition: .3s;
+  
+  }
+  .facebook-icon:hover{
+    color: #1da1f2;
+  }
+  .instagram-icon:hover{
+    color:rgb(227, 83, 146); 
+  }
+  .twitter-icon:hover{
+    color: #266790;
+  }
+  .foot {
+    background-color: #000000;
+   padding: 10px;
+   border-radius: 4px ;
+   margin-top: 40px;
+  
+  }
+  
+  .nd {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .conect {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  .conect h2 {
+    margin: 0;
+    margin-right: 10px;
+    color: #ffffff;
+    font-size: 20px;
+  }
+  
+  .img_2 {
+    margin-right: 10px;
+  }
+  
+  .social-icon {
+    list-style: none;
+   padding-top: 1%;
+    display: flex;
+    
+    
+  }
+  
+  .social-icon li {
+    margin-right: 10px;
+  }
+  
+  .social-icon li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .social-icon li a:hover {
+    color: #fffefe;
+  }
+  .col{
+    margin: 20px;
+    margin-left: 15%;
+    margin-top: 9%;
+    padding-right: 20%;
+ 
+  }
+.conten{
+  font-size: 30px;
+  background-color: transparent;
+  margin-top: 10%;
+  text-align: center;
+  margin-left: 20%;
+}
+
+.container-fluid img{
+  margin-left: 6%;
+}
+#navcode{
+  padding: 0 20px;
+  font-size: 13px;
+}
+
+/* default styles here for older browsers. 
+       I tend to go for a 600px - 960px width max but using percentages
+    */
+    @media only screen and (min-width: 960px) {
+      /* styles for browsers larger than 960px; */
+
+  }
+ 
+  
+  @media only screen and (min-width: 1366px) {
+    /* for sumo sized (mac) screens */
+    .main_class1{
+      margin-left: 4%;
+            }
+            .conten{
+              margin-left: 20%;
+            }
+            .fontchu{
+              text-align: center;
+              margin-top: 15%;
+             
+              width: 450px;
+            }
+            
+}
+  @media only screen and (min-width: 1440px) {
+      /* styles for browsers larger than 1440px; */
+      .main_class1{
+margin-left: 5%;
+      }
+      .fontchu{
+        text-align: center;
+        margin-top: 15%;
+       
+        width: 450px;
+      }
+  }
+  @media only screen and (min-width: 1600px) {
+    /* for sumo sized (mac) screens */
+    .main_class1{
+      margin-left: 11%;
+            }
+            .conten{
+              margin-left: 40%;
+            }
+}
+  @media only screen and (min-width: 1920px) {
+      /* for sumo sized (mac) screens */
+      .main_class1{
+        margin-left: 25%;
+              }
+              .conten{
+                margin-left: 60%;
+              }
+            }
+           
+  /* @media only screen and (max-device-width: 480px) {} */
+  @media only screen and (device-width: 768px) {
+  
+    /* default iPad screens */
+    .container-fluid{
+      margin-right: 40%;
+    }
+
+  }
+
+@media (max-width: 767px) {
+ 
+ .mainclass2{
+  margin-right: 15%;
+  margin-top: 25%;
+ }
+ iframe{
+  width: 105%;
+ }
+}
+
+
+
+
+

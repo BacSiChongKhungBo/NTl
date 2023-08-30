@@ -1,0 +1,90 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat, sans-serif;
+}
+header{
+  justify-content: space-between;
+}
+
+.navbar-brand{
+  font-size: 18px;
+  padding-left: 3%;
+
+
+}
+.nav-link{
+  font-size: 20px;
+  
+}
+.navbar-toggler{
+  text-align: center;
+}
+.container{
+  margin-left: 5%;
+}
+.button1{
+  margin: auto;
+}
+#navbarNavAltMarkup{
+  margin-left: 45%;
+}
+
+/*Ipad ngang(1024 x 768)*/
+@media screen and (max-width: 1024px){
+ #navall{
+  max-width: 100%;
+ }
+}
+/*Ipad dọc(768 x 1024)*/
+@media screen and (max-width: 768px){
+  #navall{
+    max-width: 100%;
+
+   }
+ 
+/*Tablet nhỏ(480 x 640)*/
+@media screen and (max-width: 480px){
+  #navall{
+    max-width: 100%;
+   }
+   
+}
+/*Iphone(480 x 640)*/
+@media screen and (max-width: 320px){
+  #navall{
+    max-width: 100%;
+   }
+}
+/*Smart phone nhỏ*/
+@media screen and (max-width: 240px){
+  #navall{
+    max-width: 100%;
+   }
+}
+}
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  
+  
+  
+  align-items: center;
+  z-index: 100;
+}
+.container-fluid img{
+  margin-left: 6%;
+}
+#navcode{
+  padding: 0 20px;
+  font-size: 13px;
+}
+
+ 
+
+
+
+
+
